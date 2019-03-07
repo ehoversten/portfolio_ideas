@@ -42,9 +42,21 @@
         
         .portrait {
             background: url(../img/portrait_small.jpg);
+            // background: url(../img/face.png);
             width: 150px;
             height: 150px;
         }
+    }
+
+    .about-info {
+        grid-template-areas: 
+        'bioimage'
+        'bio'
+        'job1'
+        'job2'
+        'job3';
+
+        grid-template-columns: 1fr;
     }
 }
 
